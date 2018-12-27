@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3005330021D4A1F100256AAA /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300532FF21D4A1F100256AAA /* BorderButton.swift */; };
 		30B896AF21D49BDD004BA505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B896AE21D49BDD004BA505 /* AppDelegate.swift */; };
 		30B896B121D49BDD004BA505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B896B021D49BDD004BA505 /* ViewController.swift */; };
 		30B896B421D49BDD004BA505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B896B221D49BDD004BA505 /* Main.storyboard */; };
 		30B896B621D49BDF004BA505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B896B521D49BDF004BA505 /* Assets.xcassets */; };
 		30B896B921D49BDF004BA505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B896B721D49BDF004BA505 /* LaunchScreen.storyboard */; };
+		919A700D4C179487A3189512 /* Pods_Swoosh_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28674D3FB2C01999CFD2FB43 /* Pods_Swoosh_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28674D3FB2C01999CFD2FB43 /* Pods_Swoosh_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swoosh_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		300532FF21D4A1F100256AAA /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BorderButton.swift; path = Assets.xcassets/BorderButton.swift; sourceTree = "<group>"; };
 		30B896AB21D49BDD004BA505 /* Swoosh-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swoosh-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B896AE21D49BDD004BA505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B896B021D49BDD004BA505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		30B896B521D49BDF004BA505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B896B821D49BDF004BA505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B896BA21D49BDF004BA505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362F1F8E1C485B8CD45F7482 /* Pods-Swoosh-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swoosh-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swoosh-iOS/Pods-Swoosh-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4263815F0B723030F7776EFC /* Pods-Swoosh-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swoosh-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swoosh-iOS/Pods-Swoosh-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919A700D4C179487A3189512 /* Pods_Swoosh_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				30B896AD21D49BDD004BA505 /* Swoosh-iOS */,
 				30B896AC21D49BDD004BA505 /* Products */,
+				A9FB6E8592010A3B813746A8 /* Pods */,
+				E745D25002BDA00C66CA6350 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				30B896B521D49BDF004BA505 /* Assets.xcassets */,
 				30B896B721D49BDF004BA505 /* LaunchScreen.storyboard */,
 				30B896BA21D49BDF004BA505 /* Info.plist */,
+				300532FF21D4A1F100256AAA /* BorderButton.swift */,
 			);
 			path = "Swoosh-iOS";
+			sourceTree = "<group>";
+		};
+		A9FB6E8592010A3B813746A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				362F1F8E1C485B8CD45F7482 /* Pods-Swoosh-iOS.debug.xcconfig */,
+				4263815F0B723030F7776EFC /* Pods-Swoosh-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E745D25002BDA00C66CA6350 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28674D3FB2C01999CFD2FB43 /* Pods_Swoosh_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30B896BD21D49BDF004BA505 /* Build configuration list for PBXNativeTarget "Swoosh-iOS" */;
 			buildPhases = (
+				1F03C8B4BA5DC4F0226571D7 /* [CP] Check Pods Manifest.lock */,
 				30B896A721D49BDD004BA505 /* Sources */,
 				30B896A821D49BDD004BA505 /* Frameworks */,
 				30B896A921D49BDD004BA505 /* Resources */,
@@ -130,6 +158,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F03C8B4BA5DC4F0226571D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swoosh-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30B896A721D49BDD004BA505 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +186,7 @@
 			files = (
 				30B896B121D49BDD004BA505 /* ViewController.swift in Sources */,
 				30B896AF21D49BDD004BA505 /* AppDelegate.swift in Sources */,
+				3005330021D4A1F100256AAA /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +330,7 @@
 		};
 		30B896BE21D49BDF004BA505 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362F1F8E1C485B8CD45F7482 /* Pods-Swoosh-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +348,7 @@
 		};
 		30B896BF21D49BDF004BA505 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4263815F0B723030F7776EFC /* Pods-Swoosh-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
