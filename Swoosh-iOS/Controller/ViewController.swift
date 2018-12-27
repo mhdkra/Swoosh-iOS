@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     @IBOutlet weak var BGimage: UIImageView!
     override func viewDidLoad() {
